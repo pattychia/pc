@@ -1,0 +1,239 @@
+body {
+    background-color: #FFE7AB;
+    font-family: 'MuseoModernB';font-size: 22px;
+
+    margin:0%;
+    height: 100vh;
+    cursor: url('Assets/fly3.png'),auto;
+}
+
+.cursor {
+   width:50px;
+   height: 50px;
+   border: 10px solid rgb(245, 209, 6);
+   border-radius: 50%;
+   position:absolute;
+   transition-duration:200ms;
+   transition-timing-function: ease-out;
+   animation:cursorAnim .5s infinite alternate;
+
+  }
+
+  .cursor::after {
+    width:20px;
+    height: 20px;
+    border: 8px solid rgb(97, 83, 83);
+    border-radius: 50%;
+    position:absolute;
+    opacity: .5;
+    top:-8px;
+    left:-8px;
+    animation: cursorAnim2 .5s infinite alternate;
+    cursor: url('Assets/my-cursor-boom.png'), auto;
+ 
+   }
+
+@keyframes cursorAnim {
+from{
+    transform: scale(1);
+}
+to{
+
+transform: scale(.2);
+}
+
+}
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FFCA41;
+    text-align:right;
+    padding: 10px;
+    font-size:300px;
+  }
+
+  
+  
+
+
+/* FONT START */
+h1 {
+    font-family: 'Blaka';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 300px;
+    line-height: 200px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'MuseoModerno',cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Chewy', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 107px;
+}
+
+.h4 {
+    font-family: 'Bungee Inline', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 700px;
+    line-height: 840px;
+
+    position: absolute;
+    width: 476px;
+   height: 590px;
+   left: 117px;
+   top: 4379px;
+}
+
+.h5 {
+    font-family: "Times New Roman", Times, serif;
+ 
+}
+
+.h6 {
+    font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 100;
+font-size: 70px;
+line-height: 111px;
+text-align: center;
+  }
+
+/* FONT END */
+
+/* COlOR START */
+#Y200{
+    color:#FFCA41;
+}
+
+#Y150{
+    color:#FFD25F;
+}
+
+#Y100{
+    color:#FFDC80; 
+}
+
+#S150{
+    color:#FFE7AB; 
+}
+
+#S100{
+    color:#FFEFC4; 
+}
+#R100{
+    color:#E46B4F;
+}
+#R150{
+    color:#ff2f00;
+}
+#B100{
+    color:#DBA05B;
+}
+
+#B150{
+    color:#C88F4C;
+}
+
+#B200{
+    color:#633021;
+}
+
+#B250{
+    color:#383626;
+}
+
+
+
+/* COlOR END */
+
+/* DIV BOX Color start*/
+#BoxCategory_1 {
+    background-color: #00FF47;
+}
+
+#BoxCategory_2 {
+    background-color: #E46B4F;
+}
+
+#BoxCategory_3 {
+    background-color: #5855FF;
+}
+
+#BoxCategory_4 {
+    background-color: #E300E8;
+}
+
+#BoxCategory_5 {
+    background-color: #633021;
+}
+
+#BoxCategory_6 {
+    background-color: #FFE7AB;
+}
+
+#BoxCategory_7 {
+    background-color: #FFCA41;
+}
+/* DIV BOX Color end*/
+
+/* BUDGER PATTY BG Start */
+
+.burgerPattyBottomBG {
+    background-image: url("Assets/bugertop2.png"); /* The image used */
+   
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+.rotatePattyBottom {
+    background-image: url("Assets/11.png"); /* The image used */
+   
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+.burgerTopandBasePattyBottom {
+    background-image: url("Assets/burger\ top\ and\ base@4x.png"); /* The image used */
+    background-position: top; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+.burgerrepeat {
+    background-image: url("Assets/burger_BG.png"); /* The image used */
+    background-repeat: repeat; /* Do not repeat the image */
+
+  }
+
+.burgerbase {
+    background-image: url("Assets/Asset\ 7@4x.png"); /* The image used */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+  }
+
+
+  /* BUDGER PATTY BG End */

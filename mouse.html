@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Patty Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Blaka' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="cursor"></div>
+
+<script>
+const cursor= document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e=>{
+   cursor.setAttribute("style","top:"+(e.pageY-10)+"px;left:"+(e.pageX-10)+"px;")
+})
+
+document.addEventListener('click',() => {
+   cursor.classList.add("expand");
+})
+
+
+
+</script>
+</body>
+</html>
